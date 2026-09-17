@@ -18,16 +18,30 @@ The repository contains a dedicated Blazor application that focuses specifically
 ## Prerequisites
 
 * Visual Studio 2022
+* Visual Studio Code
 
 ## How to Run the Project
 
-1. Checkout this project to a location in your disk.
-2. Open the `BindAsynchronousData.sln` solution file using Visual Studio 2022.
-3. Restore the NuGet packages by rebuilding the solution.
-4. Build the application successfully.
-5. Run the project.
-6. Navigate to the page hosting the Syncfusion DataGrid sample.
-7. Observe the Grid loading and displaying data that is supplied asynchronously from the service layer.
+**Visual Studio 2022**
+
+1. Clone or download the repository.
+2. Open the verified solution file: `CrudAsynchronousSample.sln`.
+3. Restore NuGet packages.
+4. Ensure the startup project is `CrudAsynchronousSample` if multiple startup projects are present.
+5. Build the solution.
+6. Run the application using `Ctrl+F5`.
+7. Access the application at the local URL displayed by the ASP.NET Core launch output. `[VERIFY: local development URL]`
+
+**Visual Studio Code**
+
+1. Open the repository folder in Visual Studio Code.
+2. Open the integrated terminal.
+3. Navigate to the project directory that contains `CrudAsynchronousSample.csproj`.
+
+```bash
+dotnet restore
+dotnet run
+```
 
 ## Project Structure
 
