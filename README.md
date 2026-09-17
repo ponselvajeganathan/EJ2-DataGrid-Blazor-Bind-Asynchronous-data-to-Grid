@@ -17,8 +17,7 @@ The repository contains a dedicated Blazor application that focuses specifically
 
 ## Prerequisites
 
-* Visual Studio 2022
-* Visual Studio Code
+* Visual Studio 2022 or Visual Studio Code
 
 ## How to Run the Project
 
